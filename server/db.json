@@ -23,6 +23,12 @@
       "description": "Heels for short people I guess",
       "price": "899",
       "id": "10"
+    },
+    {
+      "name": "Jacket",
+      "description": "For cold",
+      "price": "5999",
+      "id": "vFKPBD3"
     }
   ]
 }

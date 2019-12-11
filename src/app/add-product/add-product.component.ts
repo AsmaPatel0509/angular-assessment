@@ -10,7 +10,7 @@ import { ProductService } from '../product.service';
 export class AddProductComponent implements OnInit {
 
   product: product = new product();
-  id:number;
+  // id:number;
   name:String;
   description:String;
   price:number;
@@ -24,7 +24,7 @@ export class AddProductComponent implements OnInit {
 
   addProduct(){
     console.log("Add product");
-    if (this.product.id === null || this.product.name === '') {
+    if (this.product.name === '') {
       this.errMessage = "Required fields";
     }
     console.log("In addProduct()" + this.product);
@@ -36,7 +36,7 @@ export class AddProductComponent implements OnInit {
         console.log(this.errMessage);
         this.products.pop();
       });
-      this.product.id = null;
+      // this.product.id = null;
       this.product.name = '';
       this.product.description = '';
       this.product.price = null;
