@@ -1,0 +1,18 @@
+<h4>Select an operation</h4>
+
+<div >
+    <form [formGroup]="selectForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <select matNativeControl required [formControl]="operation">
+                <option value=""> Select </option>
+                <option value="addproduct" >
+                    <a href="/addproduct"> Add product </a>
+                </option>
+                <option value="viewproduct">
+                    <a href="/viewproduct"> View products </a>
+                </option>
+            </select>
+        </mat-form-field> <br /> <br />
+        <button  type="submit"> Submit </button>
+    </form>
+</div>

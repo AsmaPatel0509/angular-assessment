@@ -1,0 +1,28 @@
+<h4>Add a new Product </h4>
+
+<label>Product id: </label> <br/>
+<mat-form-field>
+    <input [(ngModel)]="product.id" matInput type="text" matInput placeholder="Product ID" name="productid">
+</mat-form-field> <br/>
+
+<label>Product name: </label> <br/>
+<mat-form-field>
+    <input [(ngModel)]="product.name" matInput type="text" matInput placeholder="name" name="name">
+</mat-form-field> <br/>
+
+<label>Product description: </label> <br/>
+<mat-form-field>
+    <textarea [(ngModel)]="product.description" matInput type="text" matInput placeholder="Description" name="desc">
+
+        </textarea> 
+</mat-form-field> <br />
+
+<label>Product price: </label> <br/>
+<mat-form-field>
+    <input [(ngModel)]="product.price" matInput type="text" matInput placeholder="Price" name="price">
+</mat-form-field> <br />
+<button mat-button (click)="addProduct()">Add</button>
+
+<label class="error-message">{{ errMessage }}</label>
+
+<br /><br />

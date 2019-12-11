@@ -1,0 +1,15 @@
+.card{
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    color: teal;
+    font-size: 16px;
+    background-color: seashell;
+    box-shadow: 4px 4px 4px salmon;
+}
+
+.cardContent{
+    color: midnightblue;
+    font-size: 14px;
+}

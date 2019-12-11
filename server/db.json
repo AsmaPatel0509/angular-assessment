@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shoes",
+      "description": "a type of footwear",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "name": "T-shirts",
+      "description": "menswear, womenswear, kidswear",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "name": "pants",
+      "description": "formal pants",
+      "price": 1200
+    },
+    {
+      "name": "Stillettos",
+      "description": "Heels for short people I guess",
+      "price": "899",
+      "id": "10"
+    }
+  ]
+}
